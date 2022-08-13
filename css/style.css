@@ -70,13 +70,13 @@ section {
     background-size: cover;
     height:100vh;
     background-repeat: no-repeat;
+    position: relative;
 }
  section p:first-of-type{
      font: 14px/20px 'Poppins';
      letter-spacing: 2px;
      text-transform: uppercase;
      color: #C0C0C0;
-     margin-bottom: 1px;
  }
  section h2{
      font:54px/59px 'Poppins';
@@ -87,3 +87,109 @@ section {
      font: 14px/20px 'Poppins';
      color: #C0C0C0;
  }
+ .fixed_information{
+     display: flex;
+     list-style: none;
+     position: absolute;
+     bottom: 41px;
+     right: 40px;
+ }
+ .fixed_information li{
+     font: 12px/12px 'Poppins';
+     color: #FFFFFF;
+     margin-left: 16px;
+ }
+ .fixed_information li:before{
+   content:"";
+     display: inline-block;
+     background-image: url("../images/clock.svg");
+     width: 16px;
+     height: 16px;
+     margin-right: 6px;
+     position: relative;
+     top: 6px;
+ }
+.fixed_information li:nth-child(2):before{
+    background-image: url("../images/objective.svg");
+}
+.fixed_information li:nth-child(3):before{
+    background-image: url("../images/iso.svg");
+    width: 32px;
+}
+.fixed_information li:last-of-type:before{
+    background-image: url("../images/fill.svg");
+    width: 10px;
+}
+.past_client{
+    background: black;
+}
+.text_past{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+.text_past article{
+    text-align: center;
+    margin-bottom: 42px;
+}
+.text_past article h3{
+    font: 40px/42px 'Poppins';
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.text_past article p{
+    font: 24px/30px 'Poppins';
+    color: #C0C0C0;
+}
+.logo_comp{
+    max-width: 1168px;
+    padding: 69px 0;
+}
+.aside{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 108px;
+}
+.b-ground{
+    background-color: black;
+}
+.aside h4{
+    font: 40px/42px 'Poppins';
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.aside p{
+    font: 24px/30px 'Poppins';
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+
+.aside a{
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    font: 16px/20px 'Poppins';
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 9px 10px 13px 42px;
+    position: relative;
+}
+.aside a:before{
+    content:"";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    top:5px;
+    right: 118px;
+    bottom: 5px;
+    left: 4px;
+    margin-right: 6px;
+
+}
