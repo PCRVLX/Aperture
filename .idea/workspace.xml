@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="done past-client section&#10;made custom link&#10;added new style for section">
+    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="wrapped &lt;img&gt; in &lt;a&gt; for more usability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,9 @@
       <workItem from="1659981152647" duration="1185000" />
       <workItem from="1659982612210" duration="687000" />
       <workItem from="1660382399983" duration="17396000" />
-      <workItem from="1660559126610" duration="365000" />
+      <workItem from="1660559126610" duration="476000" />
+      <workItem from="1660580638435" duration="700000" />
+      <workItem from="1660585163249" duration="1934000" />
     </task>
     <task id="LOCAL-00001" summary="done past-client section&#10;made custom link&#10;added new style for section">
       <created>1660408849738</created>
@@ -79,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660408849738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wrapped &lt;img&gt; in &lt;a&gt; for more usability">
+      <created>1660559583329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660559583329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done past-client section&#10;made custom link&#10;added new style for section" />
-    <option name="LAST_COMMIT_MESSAGE" value="done past-client section&#10;made custom link&#10;added new style for section" />
+    <MESSAGE value="wrapped &lt;img&gt; in &lt;a&gt; for more usability" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrapped &lt;img&gt; in &lt;a&gt; for more usability" />
   </component>
 </project>
