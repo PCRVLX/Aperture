@@ -149,6 +149,10 @@ section {
     max-width: 1168px;
     padding: 69px 0;
 }
+.logo_comp .item{
+    max-width: 128px;
+    margin: auto;
+}
 .aside{
     max-width: 600px;
     margin: auto;
@@ -219,3 +223,22 @@ section {
     color: #C0C0C0;
 
 }
+.owl-dots{
+    position: absolute;
+    right: 46%;
+
+}
+
+.owl-dots .owl-dot span:before{
+    font-family: "Font Awesome 6 Free",sans-serif;
+    font-weight: 400;
+    content: "\f111";
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+ .owl-dots .owl-dot.active span:before{
+    background-color: crimson;
+     border-radius: 50%;
+}
+
