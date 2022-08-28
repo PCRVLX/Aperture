@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="add portfolio class">
-      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mountain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="create owl_carousel and style him">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +89,7 @@
       <workItem from="1660839565589" duration="1044000" />
       <workItem from="1661663893217" duration="112000" />
       <workItem from="1661664031329" duration="776000" />
-      <workItem from="1661665151871" duration="6808000" />
+      <workItem from="1661665151871" duration="8865000" />
     </task>
     <task id="LOCAL-00001" summary="done past-client section&#10;made custom link&#10;added new style for section">
       <created>1660408849738</created>
@@ -120,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660587324438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create owl_carousel and style him">
+      <created>1661675399340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661675399340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +140,7 @@
     <MESSAGE value="done past-client section&#10;made custom link&#10;added new style for section" />
     <MESSAGE value="wrapped &lt;img&gt; in &lt;a&gt; for more usability" />
     <MESSAGE value="add portfolio class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add portfolio class" />
+    <MESSAGE value="create owl_carousel and style him" />
+    <option name="LAST_COMMIT_MESSAGE" value="create owl_carousel and style him" />
   </component>
 </project>

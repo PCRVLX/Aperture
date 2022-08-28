@@ -153,6 +153,10 @@ section {
     max-width: 128px;
     margin: auto;
 }
+.owl-stage{
+    align-items: center;
+    display: flex;
+}
 .aside{
     max-width: 600px;
     margin: auto;
@@ -224,8 +228,7 @@ section {
 
 }
 .owl-dots{
-    position: absolute;
-    right: 46%;
+    text-align: center;
 
 }
 
@@ -233,9 +236,9 @@ section {
     font-family: "Font Awesome 6 Free",sans-serif;
     font-weight: 400;
     content: "\f111";
-    font-size: 10px;
+    font-size: 15px;
     color: #FFFFFF;
-    margin-right: 10px;
+    margin-right: 20px;
 }
  .owl-dots .owl-dot.active span:before{
     background-color: crimson;
