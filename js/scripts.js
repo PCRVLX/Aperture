@@ -16,55 +16,38 @@ $(document).ready(function(){
         }
     });
 });
+$('.open-overlay').click(function() {
+    var overlay_navigation = $('.overlay-navigation'),
+        nav_item_1 = $('nav li:nth-of-type(1)'),
+        nav_item_2 = $('nav li:nth-of-type(2)'),
+        nav_item_3 = $('nav li:nth-of-type(3)'),
+        nav_item_4 = $('nav li:nth-of-type(4)'),
+        nav_item_5 = $('nav li:nth-of-type(5)'),
+        top_bar = $('.bar-top'),
+        middle_bar = $('.bar-middle'),
+        bottom_bar = $('.bar-bottom');
 
-    $(document).ready(function($){
-    //toggle 3d navigation
-    $('.cd-3d-nav-trigger').on('click', function(){
-        toggle3dBlock(!$('.cd-header').hasClass('nav-is-visible'));
-    });
+    overlay_navigation.toggleClass('overlay-active');
+    if (overlay_navigation.hasClass('overlay-active')) {
 
-    //select a new item from the 3d navigation
-    $('.cd-3d-nav a').on('click', function(){
-        var selected = $(this);
-        selected.parent('li').addClass('cd-selected').siblings('li').removeClass('cd-selected');
-        updateSelectedNav('close');
-    });
-
-    $(window).on('resize', function(){
-        window.requestAnimationFrame(updateSelectedNav);
-    });
-
-    function toggle3dBlock(addOrRemove) {
-        if(typeof(addOrRemove)==='undefined') addOrRemove = true;
-        $('.cd-header').toggleClass('nav-is-visible', addOrRemove);
-        $('main').toggleClass('nav-is-visible', addOrRemove);
-        $('.cd-3d-nav-container').toggleClass('nav-is-visible', addOrRemove);
+        top_bar.removeClass('animate-out-top-bar').addClass('animate-top-bar');
+        middle_bar.removeClass('animate-out-middle-bar').addClass('animate-middle-bar');
+        bottom_bar.removeClass('animate-out-bottom-bar').addClass('animate-bottom-bar');
+        overlay_navigation.removeClass('overlay-slide-up').addClass('overlay-slide-down')
+        nav_item_1.removeClass('slide-in-nav-item-reverse').addClass('slide-in-nav-item');
+        nav_item_2.removeClass('slide-in-nav-item-delay-1-reverse').addClass('slide-in-nav-item-delay-1');
+        nav_item_3.removeClass('slide-in-nav-item-delay-2-reverse').addClass('slide-in-nav-item-delay-2');
+        nav_item_4.removeClass('slide-in-nav-item-delay-3-reverse').addClass('slide-in-nav-item-delay-3');
+        nav_item_5.removeClass('slide-in-nav-item-delay-4-reverse').addClass('slide-in-nav-item-delay-4');
+    } else {
+        top_bar.removeClass('animate-top-bar').addClass('animate-out-top-bar');
+        middle_bar.removeClass('animate-middle-bar').addClass('animate-out-middle-bar');
+        bottom_bar.removeClass('animate-bottom-bar').addClass('animate-out-bottom-bar');
+        overlay_navigation.removeClass('overlay-slide-down').addClass('overlay-slide-up')
+        nav_item_1.removeClass('slide-in-nav-item').addClass('slide-in-nav-item-reverse');
+        nav_item_2.removeClass('slide-in-nav-item-delay-1').addClass('slide-in-nav-item-delay-1-reverse');
+        nav_item_3.removeClass('slide-in-nav-item-delay-2').addClass('slide-in-nav-item-delay-2-reverse');
+        nav_item_4.removeClass('slide-in-nav-item-delay-3').addClass('slide-in-nav-item-delay-3-reverse');
+        nav_item_5.removeClass('slide-in-nav-item-delay-4').addClass('slide-in-nav-item-delay-4-reverse');
     }
-
-    //this function update the .cd-marker position
-    function updateSelectedNav(type) {
-        var selectedItem = $('.cd-selected'),
-            selectedItemPosition = selectedItem.index() + 1,
-            leftPosition = selectedItem.offset().left,
-            backgroundColor = selectedItem.data('color');
-
-        $('.cd-marker').removeClassPrefix('color').addClass('color-'+ selectedItemPosition).css({
-            'left': leftPosition,
-        });
-        if( type == 'close') {
-            $('.cd-marker').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-                toggle3dBlock(false);
-            });
-        }
-    }
-
-    $.fn.removeClassPrefix = function(prefix) {
-        this.each(function(i, el) {
-            var classes = el.className.split(" ").filter(function(c) {
-                return c.lastIndexOf(prefix, 0) !== 0;
-            });
-            el.className = $.trim(classes.join(" "));
-        });
-        return this;
-    };
 });

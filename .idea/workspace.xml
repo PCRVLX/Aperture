@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="fixed items on owl carousel">
+    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="add burger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
@@ -94,7 +95,10 @@
       <workItem from="1661760816867" duration="77000" />
       <workItem from="1661860583091" duration="250000" />
       <workItem from="1662628006063" duration="660000" />
-      <workItem from="1662629970119" duration="3183000" />
+      <workItem from="1662629970119" duration="5922000" />
+      <workItem from="1662642457142" duration="395000" />
+      <workItem from="1662643280883" duration="3058000" />
+      <workItem from="1662647920238" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="done past-client section&#10;made custom link&#10;added new style for section">
       <created>1660408849738</created>
@@ -138,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661760879208</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add burger">
+      <created>1662638399544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662638399544</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +173,7 @@
     <MESSAGE value="create owl_carousel and style him" />
     <MESSAGE value="fixed own_carousel and added background for active dot" />
     <MESSAGE value="fixed items on owl carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed items on owl carousel" />
+    <MESSAGE value="add burger" />
+    <option name="LAST_COMMIT_MESSAGE" value="add burger" />
   </component>
 </project>
