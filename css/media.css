@@ -1,4 +1,17 @@
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 884px) {
+    header{
+        padding: 24px 15px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    header nav li a{
+        font: 11px/20px 'Poppins';
+    }
+}
+
+@media screen and (max-width: 769px) {
     .open-overlay{
         display: block;
     }
@@ -310,3 +323,50 @@
     }
 }
 
+@media screen and (max-width: 429px) {
+    header nav ul li:first-of-type a {
+        font-size: 7px;
+    }
+    nav ul li a {
+        font-size: 7px;
+    }
+    header nav ul li:last-of-type a {
+        background: #FFFFFF;
+        border-radius: 14px;
+        font: 9px/20px 'Poppins';
+        letter-spacing: 0.4px;
+        color: #000000;
+        padding: 0 16px;
+    }
+    .portfolio .sub_container {
+        margin-right: 10px;
+    }
+    .padding {
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .fixed_information {
+        bottom: 22px;
+        right: 29px;
+    }
+
+    .text_past {
+        padding: 120px 15px 100px 15px;
+    }
+    .aside {
+        padding: 120px 15px 108px 15px;
+    }
+    .aside h4 {
+        font: 36px/42px 'Poppins';
+    }
+    li:first-of-type a {
+        font-size: 6px;
+    }
+    nav ul li a {
+        font-size: 6px;
+    }
+    header nav ul li:last-of-type a {
+        font: 7px/20px 'Poppins';
+    }
+}

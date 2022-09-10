@@ -7,7 +7,13 @@ $(document).ready(function(){
 
         responsive:{
             0:{
-                items:1
+                items:2
+            },
+            768:{
+                items:3
+            },
+            800:{
+                items:3
             },
 
             1000:{

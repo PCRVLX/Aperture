@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="add new burger">
+    <list default="true" id="e47b1fc0-de53-4bcc-9694-996949787710" name="Changes" comment="finally fixed burger menu in header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,9 @@
       <workItem from="1662629970119" duration="5922000" />
       <workItem from="1662642457142" duration="395000" />
       <workItem from="1662643280883" duration="3058000" />
-      <workItem from="1662647920238" duration="2453000" />
+      <workItem from="1662647920238" duration="2490000" />
+      <workItem from="1662798723151" duration="381000" />
+      <workItem from="1662799209410" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="done past-client section&#10;made custom link&#10;added new style for section">
       <created>1660408849738</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662649267953</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finally fixed burger menu in header">
+      <created>1662653072161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662653072161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +189,7 @@
     <MESSAGE value="fixed items on owl carousel" />
     <MESSAGE value="add burger" />
     <MESSAGE value="add new burger" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new burger" />
+    <MESSAGE value="finally fixed burger menu in header" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally fixed burger menu in header" />
   </component>
 </project>
